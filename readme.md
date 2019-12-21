@@ -1,5 +1,17 @@
-Goal:
+### Development
+```sh
+# Run development environment
+./scripts/dev.sh
+```
 
-1. Express in docker
-2. Easy to develop and deploy
-3. Use nginx as reverse proxy server
+### Deploy
+```sh
+# Build image
+./scripts/build.sh
+
+# Run container
+./scripts/run.sh
+
+# Health check
+curl localhost:8080
+```
